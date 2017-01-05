@@ -1,0 +1,44 @@
+#loginContainer {
+    background: #F1F1F1;
+    padding: 58px;
+}
+
+@media only screen and (min-width: 768px) {
+    #loginContainer {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+}
+
+.login-header {
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #337ab7;
+    box-shadow: none;
+}
+
+#loginContainer .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.separator {
+    border: 1px dotted #848181;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#forgotPwd {
+    float: right;
+}
+
+.remember-me {
+    padding: 0;
+}
+
+#chkremember {
+    vertical-align: top;
+}

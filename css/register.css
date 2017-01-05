@@ -1,0 +1,12 @@
+#registerContainer {
+    background: #F1F1F1;
+    padding: 58px;
+}
+
+@media only screen and (min-width: 768px) {
+    #registerContainer {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+}

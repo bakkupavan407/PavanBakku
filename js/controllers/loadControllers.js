@@ -1,0 +1,4 @@
+define([
+    './loginController',
+    './registerController'
+], function() {});

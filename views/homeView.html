@@ -1,0 +1,50 @@
+<div class="row">
+    <div id="loginContainer" class="col-xs-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4">
+        <form id="loginForm">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="login-header">
+                        <h2>Login to Test World</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" class="form-control" id="email" ng-model="user.userid">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" class="form-control" id="password" ng-model="user.password">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-xs-6 remember-me">
+                                <input type="checkbox" id="chkremember">
+                                <label for="chkremember">Remember Me</label>
+                            </div>
+                            <div class="col-xs-6">
+                                <a id="forgotPwd" href="/#forgotpassword">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 align-center">
+                    <div class="form-group">
+                        <button type="button" id="btnLogin" name="btnLogin" class="btn btn-primary btn-md" ng-click="handleLogin();">LOGIN</button>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <span class="separator"></span>
+                </div>
+                <div class="col-xs-12 align-center">
+                    <label for="register">New to Team UI? </label>
+                    <a href="#/register">Register Here</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

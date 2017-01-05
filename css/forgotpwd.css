@@ -1,0 +1,12 @@
+#forgotPwdContainer {
+    background: #F1F1F1;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    #forgotPwdContainer {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+}

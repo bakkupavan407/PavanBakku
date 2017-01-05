@@ -1,0 +1,42 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-4 well">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+                <h3>ENTER INTO UI WORLD {{2+2}} </h3>
+            </div>
+        </div>
+        <form id="loginForm" class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="empId">EMPLOYEE ID</label>
+                <div class="controls">
+                    <input type="text" class="form-control" name="empId" id="empId" placeholder="YOUR OSI EMPLOYEE ID">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="password">PASSWORD</label>
+                <div class="controls">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="YOUR PASSWORD">
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-lg-offset-4">
+                        <input type="button" class="form-control btn-submit" name="btnLogin" ng-click="handleLogin()" id="btnLogin" value="LOGIN">
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <h5>
+                            FORGOT PASSWORD?
+                        </h5>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <input type="button" class="form-control btn-submit" name="btnSignup" id="btnSignup" value="SIGNUP">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
